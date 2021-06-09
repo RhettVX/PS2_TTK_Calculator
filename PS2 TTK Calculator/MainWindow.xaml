@@ -160,12 +160,12 @@
             <TextBlock Margin="10,38,10,0" Grid.Row="2" TextWrapping="Wrap" Text="Health" Height="23" VerticalAlignment="Top" Foreground="White"/>
             <ComboBox x:Name="cmb_Target1Class" Grid.Column="2" Margin="10,39,10,0" Grid.Row="2" VerticalAlignment="Top" SelectionChanged="TargetsChanged" Height="22">
                 <ComboBoxItem Content="Normal (1000)" HorizontalAlignment="Left" Width="240" IsSelected="True"/>
-                <ComboBoxItem Content="NMS/Adrenaline Heavy Assault (1450)" HorizontalAlignment="Left" Width="240"/>
+                <ComboBoxItem Content="NMS/Adrenaline Heavy Assault (1425)" HorizontalAlignment="Left" Width="240"/>
                 <ComboBoxItem Content="Infiltrator without Nano-Armor (900)" HorizontalAlignment="Left" Width="240"/>
             </ComboBox>
             <ComboBox x:Name="cmb_Target2Class" Grid.Column="3" Margin="11,39,10,0" Grid.Row="2" VerticalAlignment="Top" SelectionChanged="TargetsChanged" Height="22">
                 <ComboBoxItem Content="Normal (1000)" HorizontalAlignment="Left" Width="240" IsSelected="True"/>
-                <ComboBoxItem Content="NMS/Adrenaline Heavy Assault (1450)" HorizontalAlignment="Left" Width="240"/>
+                <ComboBoxItem Content="NMS/Adrenaline Heavy Assault (1425)" HorizontalAlignment="Left" Width="240"/>
                 <ComboBoxItem Content="Infiltrator without Nano-Armor (900)" HorizontalAlignment="Left" Width="240"/>
             </ComboBox>
             <CheckBox x:Name="chb_NWA1" Content="Nanoweave Armor" Grid.Column="2" Margin="10,66,10,0" Grid.Row="2" VerticalAlignment="Top" Height="23" Click="TargetsChanged" Foreground="White"/>

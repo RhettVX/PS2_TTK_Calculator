@@ -11,7 +11,7 @@ namespace PS2_TTK_calculator
         public Target(double range = 0, bool hasHAShield = false, bool isInfiltrator = false, bool hasNWA = false)
         {
             rangeFromShooterM = range;
-            healthPoints = 1000 + (hasHAShield ? 450 : 0)-(isInfiltrator?100:0);
+            healthPoints = 1000 + (hasHAShield ? 425 : 0)-(isInfiltrator?100:0);
             resistanceNWA = hasNWA ? 0.2 : 0;
         }
 
